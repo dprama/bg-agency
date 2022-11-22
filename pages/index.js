@@ -16,9 +16,9 @@ export default function Home() {
      <header>
      <nav class="px-4 lg:px-6 py-6">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="/" class="flex items-center">
+            <Link href="/" class="flex items-center">
                 <Image src="/images/logo.png" class="mr-3 h-6 sm:h-12" alt="Logo" width={200} height={184}/>
-            </a>
+            </Link>
             <div class="flex items-center lg:order-2">
                 <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
