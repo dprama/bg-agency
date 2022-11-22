@@ -77,7 +77,7 @@ an enthusiastic persona of each creative works done.
 <div class="flex items-end w-full h-screen bg-[url('/images/portfolio/mandala.jpg')] bg-cover bg-center">
 <div class="portfolio-text py-16 px-4 mx-auto text-white">
         <h2 class="text-4xl font-semibold uppercase mb-2">Mandala <br/> Finance</h2>
-        <p>Developing and bringing consistency <br/>to one of Indonesia's leading multi-finance brand</p>
+        <p>Developing and bringing consistency <br/>to one of Indonesia&aposs leading multi-finance brand</p>
      
 </div>
 </div>
@@ -120,7 +120,7 @@ strategic & editorial planning, visual asset creation</p>
 </div>
 
 <div class="py-16 px-4 mx-auto bg-white">
-  <h4 class="text-4xl font-semibold text-center mb-10">Clients we've worked with</h4>
+  <h4 class="text-4xl font-semibold text-center mb-10">Clients we&aposve worked with</h4>
   <Image class="mx-auto" src="/images/clients.jpg" width={800} height={120} />
 </div>
         
