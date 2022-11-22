@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
      <nav class="px-4 lg:px-6 py-6">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="/" class="flex items-center">
-                <img src="/images/logo.png" class="mr-3 h-6 sm:h-12" alt="Logo" />
+                <Image src="/images/logo.png" class="mr-3 h-6 sm:h-12" alt="Logo" width={200} height={184}/>
             </a>
             <div class="flex items-center lg:order-2">
                 <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -28,16 +29,16 @@ export default function Home() {
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-white" aria-current="page">Works</a>
+                        <Link href="#" class="block py-2 pr-4 pl-3 text-white" aria-current="page">Works</Link>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-300 hover:text-white">About Us</a>
+                        <Link href="#" class="block py-2 pr-4 pl-3 text-gray-300 hover:text-white">About Us</Link>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-300 hover:text-white">Clients</a>
+                        <Link href="#" class="block py-2 pr-4 pl-3 text-gray-300 hover:text-white">Clients</Link>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-300 hover:text-white">Contact</a>
+                        <Link href="#" class="block py-2 pr-4 pl-3 text-gray-300 hover:text-white">Contact</Link>
                     </li>
                    
                 </ul>
@@ -120,13 +121,13 @@ strategic & editorial planning, visual asset creation</p>
 
 <div class="py-16 px-4 mx-auto bg-white">
   <h4 class="text-4xl font-semibold text-center mb-10">Clients we've worked with</h4>
-  <img class="mx-auto" src="/images/clients.jpg" />
+  <Image class="mx-auto" src="/images/clients.jpg" width={800} height={120} />
 </div>
         
 
       <footer class="bg-black mx-auto py-20">
       <div class="portfolio-text mx-auto grid grid-cols-3 gap-12">
-  <div><img src="/images/footer-logo.png" /></div>
+  <div><Image src="/images/footer-logo.png" width={277} height={332} /></div>
   <div class="flex flex-col justify-between text-center">
     <div>
     <p class="text-gray-400">Jakarta | Indonesia</p>
@@ -138,8 +139,8 @@ strategic & editorial planning, visual asset creation</p>
     <h3 class="text-5xl text-white font-bold uppercase">BG Agency</h3>
     </div>
   <div class="flex items-end">
-    <a class="mr-4" href="#"><img src="/images/wa.png" /></a>
-     <a href="#"><img src="/images/ig.png" /></a>
+    <Link class="mr-4" href="#"><Image src="/images/wa.png" width={50} height={50} /></Link>
+     <Link href="#"><Image src="/images/ig.png" width={50} height={50} /></Link>
   </div>
 </div>
       </footer>
